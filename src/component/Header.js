@@ -7,8 +7,7 @@ const fadeImages = [
   ];
 function Header(){
 
-    return <div>
-        <div class="fh5co-hero">
+    return <div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>	
             <div id="carousel-slider" class="carousel slide" data-ride="carousel">
                 <div class="slide-container">
@@ -26,6 +25,5 @@ function Header(){
         </div>
         </div>
 		</div>
-    </div>
 }
 export default Header;
