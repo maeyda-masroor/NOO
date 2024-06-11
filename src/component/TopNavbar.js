@@ -7,7 +7,8 @@ function TopNavbar(){
             <div class="col-md-6 text-md-left pl-0">
               <Link to="/scholarshipForm" class=" pr-3 pl-0">Scholarship Forms</Link>
               <Link to="/Meeting" class="p-3">Meeting</Link>
-              <Link to="/New_Stories" class="p-3">News And Stories About Our children</Link>
+              <Link to="/New_Stories" class="p-3">News And Stories</Link>
+              <Link to="/theimpact" class="p-3">The Impact</Link>
             </div>
             <div class="col-md-6 text-md-right">
               <a href="#" class="p-3"><span class="icon-twitter"></span></a>

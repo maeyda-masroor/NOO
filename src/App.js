@@ -9,6 +9,10 @@ import ScholarshipForm2 from './component/ScholarshipForm2';
 import ScholarshipForm from './pages/ScholarshipForms';
 import Meeting from './pages/Meeting';
 import News_Stories from './pages/News_Stories';
+import TheImpact from './pages/TheImpact';
+import OurProgram from './pages/OurProgram';
+import Contactus from './pages/ContactUs';
+import MakeAnAppoitment from './pages/MakeAnAppointment';
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +25,10 @@ function App() {
         <Route path='/scholarshipForm2' element={<ScholarshipForm2/>}/>
         <Route path='/Meeting' element={<Meeting/>}/>
         <Route path='/New_Stories' element={<News_Stories/>}/>
+        <Route path='/Theimpact' element={<TheImpact/>}/>
+        <Route path='/ourprogram' element={<OurProgram/>}/>
+        <Route path='/contactus' element={<Contactus/>}/>
+        <Route path='/makeAnAppointment' element={<MakeAnAppoitment/>}/>
       </Routes>
     </BrowserRouter>
   );

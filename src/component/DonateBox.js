@@ -1,7 +1,7 @@
 function DonateBox(){
-    return <div class="container">
-    <h3 class="text-black mb-3">Join the Movement to provide basic neccessities to A child</h3>
-    <p><button href="#" class=" py-3 px-4 rounded-10">Donate Now</button></p>
+    return   <div class="box-92819">
+    <h1 class="text-white mb-3">Join The Movement To end Child Poverty</h1>
+    <p><a href="#" style={{color:'white',backgroundColor:'red'}}class="btn  py-3 px-4 rounded-10">Donate Now</a></p>
   </div>
-}
+  }
 export default DonateBox;
