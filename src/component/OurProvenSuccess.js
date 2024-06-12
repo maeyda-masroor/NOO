@@ -13,7 +13,7 @@ function OurProvenSuccess(){
       <div class="container">
         <div class="row gy-4 gy-lg-0 align-items-lg-center">
           <div class="col-12 col-lg-6">
-            <img class="img-fluid rounded" loading="lazy" src="./assets/img/fact-img-1.webp" alt=""/>
+            <img class="img-fluid rounded" loading="lazy" src="./images/12.jpg" alt="" width={'500px'} height={'200px'}/>
           </div>
           <div class="col-12 col-lg-6">
             <div class="row justify-content-xl-end">
@@ -22,28 +22,28 @@ function OurProvenSuccess(){
                   <div class="col-12 col-sm-6">
                     <div class="card border-0 border-bottom border-primary shadow-sm mb-4">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="display-2 fw-bold mb-2">60</h3>
-                        <p class="fs-5 mb-0 text-secondary">Finished Projects</p>
+                        <h3 class="">60</h3>
+                        <p class="">Finished Projects</p>
                       </div>
                     </div>
                     <div class="card border-0 border-bottom border-primary shadow-sm">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="display-2 fw-bold mb-2">18k+</h3>
-                        <p class="fs-5 mb-0 text-secondary">Issues Solved</p>
+                        <h3 class="">18k+</h3>
+                        <p class="">Issues Solved</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-12 col-sm-6">
                     <div class="card border-0 border-bottom border-primary shadow-sm mt-lg-6 mt-xxl-8 mb-4">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="display-2 fw-bold mb-2">10k+</h3>
-                        <p class="fs-5 mb-0 text-secondary">Happy Customers</p>
+                        <h3 class="">10k+</h3>
+                        <p class="">Happy Customers</p>
                       </div>
                     </div>
                     <div class="card border-0 border-bottom border-primary shadow-sm">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="display-2 fw-bold mb-2">78</h3>
-                        <p class="fs-5 mb-0 text-secondary">Awwwards</p>
+                        <h3 class="">78</h3>
+                        <p class="">Awwwards</p>
                       </div>
                     </div>
                   </div>

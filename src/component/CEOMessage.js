@@ -13,7 +13,7 @@ function OurProvenSuccess(){
       <div class="container">
         <div class="row gy-4 gy-lg-0 align-items-lg-center">
           <div class="col-12 col-lg-6">
-            <img class="img-fluid rounded" loading="lazy" src="./images/capture.png" alt="" width={'100%'}/>
+            <img width='500px' height='500px' style={{borderRadius:'50%'}} loading="lazy" src="./images/capture.png" alt=""/>
           </div>
           <div class="col-12 col-lg-6">
             <div class="row justify-content-xl-end">
@@ -22,7 +22,7 @@ function OurProvenSuccess(){
                   <h1 class="text-cursive" style={{color:'white',backgroundColor:'red'}}>CEO Message</h1>
     <p class="text-cursive"><i>Dear friends</i><br/>
             In the heart of our mission at Noor Education & Healthcare Foundation is a commitment to leave <b>no one behind,</b> blending <b>education and healthcare</b> into a tapestry of support for the underprivileged. <b>Our vision is ambitious yet grounded in the belief that sustainable upliftment in education and health can transform communities from the inside out.</b>
-Through our work, we strive to light the way for those in need, connecting them with essential services and inspiring a wave of support from donors, volunteers, and advocates. <span style={{color:'red',fontSize:'30px'}}>Our initiatives, from enhancing children's nutrition to advocating for the education of frontline workers' children and promoting girls' education, are more than programs; they are lifelines to a brighter future..</span>
+Through our work, we strive to light the way for those in need, connecting them with essential services and inspiring a wave of support from donors, volunteers, and advocates. <span style={{color:'red'}}>Our initiatives, from enhancing children's nutrition to advocating for the education of frontline workers' children and promoting girls' education, are more than programs; they are lifelines to a brighter future..</span>
 
 I invite you to join us in this noble cause. Your support, whether through donations, volunteering, or simply spreading the word, is invaluable. Together, we are not just dreaming of a better tomorrow; we are actively building it, one life at a time. Thank you for standing with us, for believing in our mission, and for being an integral part of our story of hope and transformation.
 with deepest appreciation</p>

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import ReactWhatsapp from 'react-whatsapp';
+
 function Navbar(){
     return <div>
          <header class="site-navbar site-navbar-target bg-secondary shadow" role="banner">
@@ -8,20 +10,23 @@ function Navbar(){
     
 
     <div class="site-logo">
-      <a href="index.html" class="text-white">Fundraiser</a>
+      <Link to="/" class="text-white">Fundraiser</Link>
     </div>
 
 
     <nav class="site-navigation text-left ml-auto " role="navigation">
       <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-        <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="active"><Link to="/about" class="nav-link">About Us</Link></li>
+        <li><Link to = '/ourteam' class="nav-link">Our Board Of Trustees</Link></li>
+        <li><Link to = '/ourteam' class="nav-link">Our Team</Link></li>
         <li><Link to="/ourprogram" class="nav-link">Our Program</Link></li>
-        <li><a href="causes.html" class="nav-link">Our Causes</a></li>
-        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><Link to = '/faq' class="nav-link">FAQ's</Link></li>
+        <li><Link to = "/our" class="nav-link">Acheivement</Link></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
         <li><Link to = "/makeAnAppointment" class="nav-link">Make An Appointment</Link></li>
-        <li><button><a href="donate.html">Donate</a></button></li>
-      </ul>
+        <li><button class="nav-link"><Link to="donate">Donate</Link></button></li>
+        <li><ReactWhatsapp class="nav-link"style={{backgroundColor:'#25d366',color:'#fff'}}number="1-212-736-5000">Whatsapp</ReactWhatsapp></li>
+         </ul>
     </nav>
 
 
