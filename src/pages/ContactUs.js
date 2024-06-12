@@ -1,8 +1,12 @@
+import GoogleMap from '../component/GoogleMap';
 function Contactus(){
     return <div>
        <div class="site-section">
       <div class="container">
-        
+        <div class ="row">
+          <GoogleMap/>
+        </div>
+        <div class="site-section">
         <div class="row">
           <div class="col-lg-8 mb-5" >
             <form action="#" method="post">
@@ -49,7 +53,7 @@ function Contactus(){
       </div>
     </div>
 
-     
+     </div>
     </div>
 }
 export default Contactus;

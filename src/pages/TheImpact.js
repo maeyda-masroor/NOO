@@ -1,5 +1,6 @@
 import React from 'react';
 import  MyPieChart  from '../component/ThePieChart';
+import { Link } from 'react-router-dom';
 import './TheImpact.css'; // Assuming you put the CSS code above in App.css
 function TheImpact() {
     
@@ -18,7 +19,7 @@ function TheImpact() {
             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
             <p class="text-cursive">Uptil now program like education program and nutrition program are introduced but it is planed to <br/> 
             introduced also another programs such as Noor technical program ,<br/> Noor Healthcare program and Noor earlychildhood program</p>
-            <button style={{color:'white',backgroundColor:'red'}}>Donate</button>
+            <button style={{color:'white',backgroundColor:'red'}}><Link to = "/donateNow">Donate</Link></button>
             </div>  
 
       </div>

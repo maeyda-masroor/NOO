@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 function Footer(){
-    return  <footer class="site-footer bg-white">
+    return  <footer class="site-footer bg-green">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -8,6 +8,10 @@ function Footer(){
               <div class="col-md-7">
                 <h2 class="footer-heading mb-4">About Us</h2>
                 <p> The NOOR education and Health Care Foundation has been developed to improve access and opportunity for all children of front line health workers, to education, health and wellbeing.NOOR education and Health Care Foundation believes in the equal opportunities for all children irrespective of their circumstances.
+                </p>
+                <br/>
+                <p>
+                    do you want to update or add data to website , are you a new admin , please contact this number
                 </p>
 
               </div>

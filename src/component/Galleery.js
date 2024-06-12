@@ -1,22 +1,54 @@
 
-import Gallery from 'react-photo-gallery';
-const photos = [
-    {
-      src: 'http://example.com/example/img1.jpg',
-      width: 4,
-      height: 3
-    },
-    {
-      src: 'http://example.com/example/img2.jpg',
-      width: 1,
-      height: 1
-    }
-  ]; 
-function Galleery(){
-    return  <div class="site-section"><div class="container">
-        <Gallery photos={photos} />;
-        </div>
-        </div>
-       
+import { Gallery } from "react-grid-gallery";
+ 
+const images = [
+   {
+      src: "img/gallery-1.jpeg",
+      width: 320,
+      height: 174,
+      caption: "After Rain (Jeshu John - designerspics.com)",
+   },
+   {
+      src: "img/gallery_2.jpeg",
+      width: 320,
+      height: 212,
+      tags: [
+         { value: "meeting", title: "Parent Meetings" },
+         { value: "2023", title: "2023" },
+      ],
+      alt: "Boats (Jeshu John - designerspics.com)",
+   },
+   {
+      src: "img/gallery-3.jpeg",
+      width: 320,
+      height: 212,
+   },
+   {
+    src: "img/gallery_4.jpeg",
+    width: 320,
+    height: 174,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+ },
+ {
+    src: "img/gallery_6.jpeg",
+    width: 320,
+    height: 212,
+    alt: "Boats (Jeshu John - designerspics.com)",
+ },
+ {
+    src: "img/gallery_7.jpeg",
+    width: 320,
+    height: 212,
+ },
+ {
+    src: "img/gallery_8.jpeg",
+    width: 320,
+    height: 174,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+ },
+ 
+];
+function Gallery1(){ 
+return <div class="site-section"><div class="container"><Gallery images={images}/></div></div>
 }
-export default Galleery;
+export default Gallery1;

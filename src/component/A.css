@@ -1,20 +1,19 @@
-.gallery {
-    margin: 5px;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.achievement {
     border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  .gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  .gallery img {
-    width: 100%;
+    padding: 20px;
+}
+
+.achievement img {
+    max-width: 100%;
     height: auto;
-  }
-  
-  .desc {
-    padding: 15px;
-    text-align: center;
-  }
+}
+
+.achievement-description {
+    margin-top: 10px;
+}
