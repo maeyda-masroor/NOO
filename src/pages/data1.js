@@ -1,33 +1,53 @@
 const questions = [
     {
       id: 1,
-      title: 'Do I have to allow the use of cookies?',
+      title: 'How many program are there in Noor education and healthcare foundation',
       info:
-        'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+        'There are basically 5 program namely Noor Education program . Noor Healthcare program , Noor technical program , Noor early childhood program , Noor nutrition program“',
     },
     {
       id: 2,
-      title: 'How do I change my My Page password?',
+      title: ' If I made an appointment , how soon will I receive the reply ',
       info:
-        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+        'With 24 hours',
     },
     {
       id: 3,
-      title: 'What is BankID?',
+      title: 'is Noor Education And HealthCare program is benefiting all people',
       info:
-        'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+        'Yes, frontline workers are supported and family in poverty are supported by Noor Education and Health care program in children’s education and healthcare',
     },
     {
       id: 4,
-      title: 'Whose birth number can I use?',
+      title: ' What are percentage for programs which noor education and healthcare program provide',
       info:
-        'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+        'Depend on case to case',
     },
     {
       id: 5,
-      title: 'When do I recieve a password ordered by letter?',
+      title: 'To whom we shall contact if need any help',
       info:
-        'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+        ' By email // email is defined soon',
     },
+    {
+     id : 6,
+     title:'Will I receive fee of my children to pay at school',
+     info:'No , Noor education and Healthcare provides fee directly to school and college'
+    },
+    {
+      id:7,
+      title:'What the criteria of getting support from noor education and healthcare foundation',
+      info:'Noor education and Hleathcare support those people whose income is less than 35000,'
+    },
+    {
+      id:8,
+      title:'Will my children , how long will get help from Noor Education and Helathcare Foundation',
+      info:' If the children has been associated with Noor Education and Healthcare foundation for more than 5 years and are providing outstanding results then they will be benefiting from Noor Education And Healthcare'
+    },
+    {
+      id:9,
+      title:'How to apply for scholarship program or donation',
+      info:' There is a form provided on the website instruction are given on steps for procedure on website'
+    }
   ]
   export default questions;

@@ -22,8 +22,10 @@ import Gallery from './component/Galleery';
 import OurTeam from './pages/OurTeam';
 import OurBoardOfTrustee from './pages/OurBoardOfTrustee';
 import FAQs from './pages/FAQ';
+import React, { Suspense } from 'react';
 function App() {
   return (
+    <Suspense fallback="loading">
     <BrowserRouter>
       <TopNavbar/>
       <Navbar/>
@@ -50,6 +52,7 @@ function App() {
       </Routes>
       <Footer/>
     </BrowserRouter>
+    </Suspense>
   );
 }
 

@@ -6,8 +6,8 @@ function FAQ() {
   return (
     <div class="site-section">
       <div className='container'>
-        <h3>questions and answers about login</h3>
-        <section className='info'>
+        <h3 class="text-cursive">FAQ's related to Noor Education and healthcare Foundation Queries</h3>
+        <section className='info' class="text-cursive">
           {questions.map((question) => {
             return (
               <SingleQuestion key={question.id} {...question}></SingleQuestion>

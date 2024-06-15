@@ -16,7 +16,7 @@ export default function CompanyLogo() {
     <div style={{padding:'50px'}}>
     <Slider {...settings}>
       <div style={{width:'100%',height:'10px',backgroundColor:'#FF0000'}}>
-        <h3 style={{backgroundColor:'green',color:'white'}}>name:ABC<br/>designation:designation<br/>testinomials:testinomials</h3>
+        <h3 style={{backgroundColor:'green',color:'white'}} class="text-cursive">name:ABC<br/>designation:designation<br/>testinomials:testinomials</h3>
       </div>
       <div style={{width:'100%',height:'10px',backgroundColor:'#FF0000'}}>
         <h3 style={{backgroundColor:'green',color:'white'}}>name:ABC<br/>designation:designation<br/>testinomials:testinomials</h3>
