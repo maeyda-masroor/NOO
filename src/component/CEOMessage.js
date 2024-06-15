@@ -13,7 +13,7 @@ function OurProvenSuccess(){
       <div class="container">
         <div class="row gy-4 gy-lg-0 align-items-lg-center">
           <div class="col-12 col-lg-6">
-            <img width='500px' height='500px' style={{borderRadius:'50%'}}  src="./images/capture.png" alt=""/>
+            <img width='500px' height='500px' style={{borderRadius:'50%'}}  src="./images/Capture.png" alt=""/>
           </div>
           <div class="col-12 col-lg-6">
             <div class="row justify-content-xl-end">
