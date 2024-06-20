@@ -17,19 +17,19 @@ function Navbar1(){
   <Navbar.Collapse id="basic-navbar-nav">
 <Nav className="mr-auto">
 <Nav.Link href="/about">About Us</Nav.Link>
-    <Nav.Link href="/about">Our Program</Nav.Link>
+    <Nav.Link href="/ourprogram">Our Program</Nav.Link>
     <Nav.Link href="/ourBoardOfTrustee">Our Board Of Trustee</Nav.Link>
     <Nav.Link href="/about">Our Team</Nav.Link>
     <Nav.Link href="/our">Acheivements</Nav.Link>
     <Nav.Link href="/faq">FAQ's</Nav.Link>
     <Nav.Link href="/contactus">Contact Us</Nav.Link>
-    <Nav.Link href="/about">Make An Appointment</Nav.Link>
+    <Nav.Link href="/makeAnAppointment">Make An Appointment</Nav.Link>
     <NavDropdown title="Parent Stuff" id="basic-nav-dropdown">
-      <NavDropdown.Item href="#action/3.1">Add Testinomials</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.2">Meetings</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.3">Scholarship</NavDropdown.Item>
+      <NavDropdown.Item href="/addtestinomials">Add Testinomials</NavDropdown.Item>
+      <NavDropdown.Item href="/Meeting">Meetings</NavDropdown.Item>
+      <NavDropdown.Item href="/scholarshipForm">Scholarship</NavDropdown.Item>
       <NavDropdown.Divider />
-      <NavDropdown.Item href="#action/3.4">News and stories</NavDropdown.Item>
+      <NavDropdown.Item href="/New_Stories">News and stories</NavDropdown.Item>
     </NavDropdown>
     <Nav.Link href="/donatenow"><button style={{width:'100px',height:'50px',color:'white',backgroundColor:'red'}}>Doante</button></Nav.Link>
     <Nav.Link href=""><ReactWhatsapp number="0319-7134823" style={{width:'100px',height:'50px',color:'white',backgroundColor:'green'}}>whatsapp Us</ReactWhatsapp></Nav.Link>
