@@ -1,5 +1,8 @@
 {
-    "app.greeting": "Hello, User!",
-    "app.description": "This is a simple react application"
-  }
-  
+  "firstname": "پہلا نام",
+  "lastname": "آخری نام",
+  "emailaddress": "ای میل اڈریس",
+  "phonenumber":"فون نمبر",
+  "message":"پیغام",
+  "submit":"جمع کرائیں"
+}

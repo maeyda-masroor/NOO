@@ -1,193 +1,86 @@
 
 // StepperForm.jsx
  
-import React from "react";
-import {
-    makeStyles,
-    Theme,
-    createStyles,
-} from "@material-ui/core/styles";
-import Stepper from "@material-ui/core/Stepper";
-import Step from "@material-ui/core/Step";
-import StepLabel from "@material-ui/core/StepLabel";
-import StepContent from "@material-ui/core/StepContent";
-import Button from "@material-ui/core/Button";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
- 
-const useStyles = makeStyles((theme) =>
-    createStyles({
-        root: {
-            width: "100%",
-        },
-        button: {
-            marginTop: theme.spacing(1),
-            marginRight: theme.spacing(1),
-        },
-        actionsContainer: {
-            marginBottom: theme.spacing(2),
-        },
-        resetContainer: {
-            padding: theme.spacing(3),
-        },
-    })
-);
- 
-function getSteps() {
-    return [
-        <b style={{ color: "purple" }}>
-            'Enter Personal Details'
-        </b>,
-        <b style={{ color: "purple" }}>
-            'Enter Education Details'
-        </b>,
-        <b style={{ color: "purple" }}>'Enter Address'</b>,
-    ];
-}
- 
-function getStepContent(step) {
-    switch (step) {
-        case 0:
-            return (
-                <form class="form-group">
-                    <label>First Name</label>
-                    <input
-                        type="text"
-                        placeholder="First Name"
-                    ></input>
-                    <br></br>
-                    <label>Last Name</label>
-                    <input
-                        type="text"
-                        placeholder="Last Name"
-                    ></input>
-                </form>
-            );
-        case 1:
-            return (
-                <form class="form-group">
-                    <label>High School Percentage</label>
-                    <input
-                        type="number"
-                        placeholder="High School Percentage"
-                    ></input>
-                    <br></br>
-                    <label>Graduation percentage</label>
-                    <input
-                        type="number"
-                        placeholder="Graduation Percentage"
-                    ></input>
-                </form>
-            );
-        case 2:
-            return (
-                <form class="form-group">
-                    <label>Permanent Address</label>
-                    <input
-                        type="text"
-                        placeholder="Permanent Address"
-                    ></input>
-                    <br></br>
-                    <label>Temporary Address</label>
-                    <input
-                        type="text"
-                        placeholder="Temporary Address"
-                    ></input>
-                </form>
-            );
-        default:
-            return "Unknown step";
-    }
-}
- 
-export default function GeekStepper() {
-    const classes = useStyles();
-    const [activeStep, setActiveStep] = React.useState(0);
-    const steps = getSteps();
- 
-    const handleNext = () => {
-        setActiveStep(
-            (prevActiveStep) => prevActiveStep + 1
-        );
-    };
- 
-    const handleBack = () => {
-        setActiveStep(
-            (prevActiveStep) => prevActiveStep - 1
-        );
-    };
- 
-    const handleReset = () => {
-        setActiveStep(0);
-    };
- 
-    return (
-        <div className={classes.root}>
-            <h1>GeeksforGeeks Stepper Form</h1>
-            <Stepper
-                activeStep={activeStep}
-                orientation="vertical"
-            >
-                {steps.map((label, index) => (
-                    <Step key={label}>
-                        <StepLabel>{label}</StepLabel>
-                        <StepContent>
-                            <Typography>
-                                {getStepContent(index)}
-                            </Typography>
-                            <div
-                                className={
-                                    classes.actionsContainer
-                                }
-                            >
-                                <div>
-                                    <Button
-                                        disabled={
-                                            activeStep === 0
-                                        }
-                                        onClick={handleBack}
-                                        className={
-                                            classes.button
-                                        }
-                                    >
-                                        Back
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="primary"
-                                        onClick={handleNext}
-                                        className={
-                                            classes.button
-                                        }
-                                    >
-                                        {activeStep ===
-                                        steps.length - 1
-                                            ? "Finish"
-                                            : "Next"}
-                                    </Button>
-                                </div>
-                            </div>
-                        </StepContent>
-                    </Step>
-                ))}
-            </Stepper>
-            {activeStep === steps.length && (
-                <Paper
-                    square
-                    elevation={0}
-                    className={classes.resetContainer}
-                >
-                    <Typography>
-                        Form is submitted
-                    </Typography>
-                    <Button
-                        onClick={handleReset}
-                        className={classes.button}
-                    >
-                        Reset
-                    </Button>
-                </Paper>
-            )}
-        </div>
-    );
-}
+import React, { useState } from 'react';
+import { Form, Button, ProgressBar } from 'react-bootstrap';
+
+const MultiStepForm = () => {
+  const [step, setStep] = useState(1);
+  const [formData, setFormData] = useState({});
+
+  const handleNext = () => {
+    setStep(step + 1);
+  };
+
+  const handlePrevious = () => {
+    setStep(step - 1);
+  };
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // handle form submission
+  };
+
+  return (
+    <Form onSubmit={handleSubmit}>
+      <ProgressBar now={(step / 3) * 100} />
+      {step === 1 && (
+        <Form.Group controlId="formStep1">
+          <Form.Label>Name</Form.Label>
+          <Form.Control
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleInputChange}
+          />
+        </Form.Group>
+      )}
+      {step === 2 && (
+        <Form.Group controlId="formStep2">
+          <Form.Label>Email</Form.Label>
+          <Form.Control
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+          />
+        </Form.Group>
+      )}
+      {step === 3 && (
+        <Form.Group controlId="formStep3">
+          <Form.Label>Message</Form.Label>
+          <Form.Control
+            as="textarea"
+            rows={3}
+            name="message"
+            value={formData.message}
+            onChange={handleInputChange}
+          />
+        </Form.Group>
+      )}
+      <div className="d-flex justify-content-between" style={{paddingTop:'10px'}}>
+        {step > 1 && (
+          <Button variant="secondary" onClick={handlePrevious}>
+            Previous
+          </Button>
+        )}
+        {step < 3 ? (
+          <Button variant="primary" onClick={handleNext}>
+            Next
+          </Button>
+        ) : (
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        )}
+      </div>
+    </Form>
+  );
+};
+
+export default MultiStepForm;

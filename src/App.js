@@ -27,7 +27,6 @@ function App() {
   return (
     <Suspense fallback="loading">
     <BrowserRouter>
-      <TopNavbar/>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
