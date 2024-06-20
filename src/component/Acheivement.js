@@ -4,57 +4,21 @@ function Acheivements(){
         <div class="container">
         <div class="grid-container">
     <div class="achievement">
-        <img src="./images/12.jpg" alt="Achievement 1"/>
+        <img src="./images/a1.jpg" alt="Achievement 1"/>
         <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Ali Murtaza is studying at Dr.Ziauddin School and obtained 3 star as acheivement.</p>
         </div>
     </div>
     <div class="achievement">
-        <img src="achievement2.jpg" alt="Achievement 2"/>
+        <img src="./images/a2.jpg" alt="Achievement 2"/>
         <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Syed Ali Muslim is studying at APSAC SYSTEMS and has obtained award in enviorment stuff</p>
         </div>
     </div>
     <div class="achievement">
-        <img src="achievement3.jpg" alt="Achievement 3"/>
+        <img src="./images/a3.jpg" alt="Achievement 3"/>
         <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div class="achievement">
-        <img src="achievement4.jpg" alt="Achievement 4"/>
-        <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div class="achievement">
-        <img src="achievement5.jpg" alt="Achievement 5"/>
-        <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div class="achievement">
-        <img src="achievement6.jpg" alt="Achievement 6"/>
-        <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div class="achievement">
-        <img src="achievement7.jpg" alt="Achievement 7"/>
-        <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div class="achievement">
-        <img src="achievement8.jpg" alt="Achievement 8"/>
-        <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div class="achievement">
-        <img src="achievement9.jpg" alt="Achievement 9"/>
-        <div class="achievement-description">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>A student in Kindergarden promoted to school</p>
         </div>
     </div>
 </div>

@@ -18,7 +18,7 @@ function Navbar1(){
 <Nav className="mr-auto">
 <Nav.Link href="/about">About Us</Nav.Link>
     <Nav.Link href="/about">Our Program</Nav.Link>
-    <Nav.Link href="/about">Our Board Of Trustee</Nav.Link>
+    <Nav.Link href="/ourBoardOfTrustee">Our Board Of Trustee</Nav.Link>
     <Nav.Link href="/about">Our Team</Nav.Link>
     <Nav.Link href="/our">Acheivements</Nav.Link>
     <Nav.Link href="/faq">FAQ's</Nav.Link>
