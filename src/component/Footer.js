@@ -23,7 +23,7 @@ function Footer(){
                   <li><Link to="/donateNow">Donate Now</Link></li>
                   <li><Link to="/gallery">Gallery</Link></li>
                   <li><Link to="/scholarshipForm1">Scholarship form For Empolyee Themselves</Link></li>
-                  <li><Link to="/scholarshipForm2">Scholarship Form For Emp Children</Link></li>
+                 <li><Link to="/scholarshipForm2">Scholarship Form For Emp Children</Link></li>
                 </ul>
               </div>
 
