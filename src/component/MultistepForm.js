@@ -28,7 +28,7 @@ const MultiStepForm = () => {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <ProgressBar now={(step / 3) * 100} />
+      <ProgressBar now={(step / 5) * 100} />
       {step === 1 && (
         <Form.Group controlId="formStep1">
           <Form.Label>Name</Form.Label>
@@ -42,9 +42,8 @@ const MultiStepForm = () => {
       )}
       {step === 2 && (
         <Form.Group controlId="formStep2">
-          <Form.Label>Email</Form.Label>
+          <Form.Label>Email/phonenumber</Form.Label>
           <Form.Control
-            type="email"
             name="email"
             value={formData.email}
             onChange={handleInputChange}
@@ -53,7 +52,29 @@ const MultiStepForm = () => {
       )}
       {step === 3 && (
         <Form.Group controlId="formStep3">
-          <Form.Label>Message</Form.Label>
+          <Form.Label>Amount to donate .</Form.Label>
+          <Form.Control
+            type="text"
+            name="message"
+            value={formData.message}
+            onChange={handleInputChange}
+          />
+        </Form.Group>
+      )}
+      
+      {step === 4 && (
+        <Form.Group controlId="formStep3">
+          <Form.Label>Monthly / yearly</Form.Label>
+          <Form.Control as="select" value={formData.message} onChange={handleInputChange}>
+          <option>Monthly</option>
+          <option>yearly</option>
+        </Form.Control>
+        </Form.Group>
+      )}
+      
+      {step === 5 && (
+        <Form.Group controlId="formStep3">
+          <Form.Label>Remarks</Form.Label>
           <Form.Control
             as="textarea"
             rows={3}
@@ -69,7 +90,7 @@ const MultiStepForm = () => {
             Previous
           </Button>
         )}
-        {step < 3 ? (
+        {step < 5 ? (
           <Button variant="primary" onClick={handleNext}>
             Next
           </Button>

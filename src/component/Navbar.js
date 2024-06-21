@@ -31,7 +31,7 @@ function Navbar1(){
       <NavDropdown.Divider />
       <NavDropdown.Item href="/New_Stories">News and stories</NavDropdown.Item>
     </NavDropdown>
-    <Nav.Link href="/donatenow"><button style={{width:'100px',height:'50px',color:'white',backgroundColor:'red'}}>Doante</button></Nav.Link>
+    <Nav.Link href="/donatenow"><button style={{width:'100px',height:'50px',color:'white',backgroundColor:'red'}}>Donate</button></Nav.Link>
     <Nav.Link href=""><ReactWhatsapp number="0319-7134823" style={{width:'100px',height:'50px',color:'white',backgroundColor:'green'}}>whatsapp Us</ReactWhatsapp></Nav.Link>
     <Nav.Link href="#"> 
       <select style={{width:'100px',height:'50px',color:'white',backgroundColor:'red'}} value={context.locale} onChange={context.selectLanguage}>

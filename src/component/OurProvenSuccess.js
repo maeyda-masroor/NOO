@@ -22,28 +22,28 @@ function OurProvenSuccess(){
                   <div class="col-12 col-sm-6">
                     <div class="card border-0 border-bottom border-primary shadow-sm mb-4">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="">60</h3>
-                        <p class="">Finished Projects</p>
+                        <h3 class="">80</h3>
+                        <p class="">Students</p>
                       </div>
                     </div>
                     <div class="card border-0 border-bottom border-primary shadow-sm">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="">18k+</h3>
-                        <p class="">Issues Solved</p>
+                        <h3 class="">5</h3>
+                        <p class="">Programs</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-12 col-sm-6">
                     <div class="card border-0 border-bottom border-primary shadow-sm mt-lg-6 mt-xxl-8 mb-4">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="">10k+</h3>
-                        <p class="">Happy Customers</p>
+                        <h3 class="">10</h3>
+                        <p class="">Team Members</p>
                       </div>
                     </div>
                     <div class="card border-0 border-bottom border-primary shadow-sm">
                       <div class="card-body text-center p-4 p-xxl-5">
-                        <h3 class="">78</h3>
-                        <p class="">Awwwards</p>
+                        <h3 class="">2</h3>
+                        <p class="">Meetings</p>
                       </div>
                     </div>
                   </div>

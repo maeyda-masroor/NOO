@@ -3,48 +3,48 @@ import { Gallery } from "react-grid-gallery";
  
 const images = [
    {
-      src: "img/gallery-1.jpeg",
+      src: "images/g1.jpg",
       width: 320,
       height: 174,
-      caption: "After Rain (Jeshu John - designerspics.com)",
+      caption: "At Meetings",
    },
    {
-      src: "img/gallery_2.jpeg",
+      src: "images/g2.jpg",
       width: 320,
       height: 212,
       tags: [
          { value: "meeting", title: "Parent Meetings" },
          { value: "2023", title: "2023" },
       ],
-      alt: "Boats (Jeshu John - designerspics.com)",
+      alt: "meeting",
    },
    {
-      src: "img/gallery-3.jpeg",
+      src: "images/g3.jpg",
       width: 320,
       height: 212,
    },
    {
-    src: "img/gallery_4.jpeg",
+    src: "images/g4.jpg",
     width: 320,
     height: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Meeting time",
  },
  {
-    src: "img/gallery_6.jpeg",
+    src: "images/g5.jpg",
     width: 320,
     height: 212,
-    alt: "Boats (Jeshu John - designerspics.com)",
+    alt: "Meeting",
  },
  {
-    src: "img/gallery_7.jpeg",
+    src: "images/g5.jpg",
     width: 320,
     height: 212,
  },
  {
-    src: "img/gallery_8.jpeg",
+    src: "images/g6.jpg",
     width: 320,
     height: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Discussion in Meeting",
  },
  
 ];
