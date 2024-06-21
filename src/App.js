@@ -44,8 +44,8 @@ function App() {
         <Route path='/privacy_Policy' element={<Privacy_Policy/>}/>
         <Route path='/donatenow' element={<DonateNow/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
-        <Route path='/ourTeam' element={<OurTeam/>}/>
-        <Route path='/ourBoardOfTrustee' element={<OurBoardOfTrustee/>}/>
+        <Route path='/ourBoardOfTrustee' element={<OurTeam/>}/>
+        <Route path='/ourTeam' element={<OurBoardOfTrustee/>}/>
         <Route path='/faq' element={<FAQs/>}/>
         <Route path='/contact' element={<Contactus/>}/>
       </Routes>

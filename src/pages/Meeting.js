@@ -18,8 +18,10 @@ function Meeting(){
                     <span class="mr-3"> <span class="icon-clock-o mr-2 text-muted"></span>9:30 AM &mdash; 11:30 AM</span>
                     <span> <span class="icon-room mr-2 text-muted"></span>Ghana Africa</span>
                   </div>
-                  <h3><a href="single.html">Ratione Delectus Assumenda Rem Modi Quaerat Laborum</a></h3>
-                  <p>Agenda</p>
+                  <h3><a href="single.html">Meeting 2</a></h3>
+                  <p>Meeting -2 in meeting 2 website progress was shown and view from parents related to testimonials and other data were asked from parent so they can be put on website
+Parents uploaded pictures of their child being presented some kind of appreciation in the form of certificate
+</p>
                 </div>
 
               </div>
@@ -38,8 +40,9 @@ function Meeting(){
                     <span class="mr-3"> <span class="icon-clock-o mr-2 text-muted"></span>9:30 AM &mdash; 11:30 AM</span>
                     <span> <span class="icon-room mr-2 text-muted"></span>Ghana Africa</span>
                   </div>
-                  <h3><a href="single.html">Ratione Delectus Assumenda Rem Modi Quaerat Laborum</a></h3>
-                  <p>Agenda</p>
+                  <h3><a href="single.html">Meeting 1</a></h3>
+                  <p>In meeting 1 student progress was discussed noor education policies were discuss 
+                  </p>
                 </div>
 
               </div>

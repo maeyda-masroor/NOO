@@ -19,17 +19,17 @@ function Navbar1(){
 <Nav.Link href="/about">About Us</Nav.Link>
     <Nav.Link href="/ourprogram">Our Program</Nav.Link>
     <Nav.Link href="/ourBoardOfTrustee">Our Board Of Trustee</Nav.Link>
-    <Nav.Link href="/about">Our Team</Nav.Link>
+    <Nav.Link href="/ourTeam">Our Team</Nav.Link>
     <Nav.Link href="/our">Acheivements</Nav.Link>
     <Nav.Link href="/faq">FAQ's</Nav.Link>
     <Nav.Link href="/contactus">Contact Us</Nav.Link>
     <Nav.Link href="/makeAnAppointment">Make An Appointment</Nav.Link>
     <NavDropdown title="Parent Stuff" id="basic-nav-dropdown">
       <NavDropdown.Item href="/addtestinomials">Add Testinomials</NavDropdown.Item>
-      <NavDropdown.Item href="/Meeting">Meetings</NavDropdown.Item>
+      <NavDropdown.Item href="/New_Stories">Meetings</NavDropdown.Item>
       <NavDropdown.Item href="/scholarshipForm">Scholarship</NavDropdown.Item>
       <NavDropdown.Divider />
-      <NavDropdown.Item href="/New_Stories">News and stories</NavDropdown.Item>
+      <NavDropdown.Item href="/Meeting">News and stories</NavDropdown.Item>
     </NavDropdown>
     <Nav.Link href="/donatenow"><button style={{width:'100px',height:'50px',color:'white',backgroundColor:'red'}}>Donate</button></Nav.Link>
     <Nav.Link href=""><ReactWhatsapp number="0319-7134823" style={{width:'100px',height:'50px',color:'white',backgroundColor:'green'}}>whatsapp Us</ReactWhatsapp></Nav.Link>
